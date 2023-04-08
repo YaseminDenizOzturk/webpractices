@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        kutular {
+            box-sizing:border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        header {
+            background-color: rgb(198, 101, 62);
+            padding: 30px;
+            text-align:center;
+            font-size: 34px;
+            color:antiquewhite;
+        }
+
+        nav {
+            float:left;
+            width: 30%;
+            height: 250px;
+            background-color:burlywood;
+            padding: 20px;
+
+
+        }
+
+        nav ul {
+            list-style-type: disc;
+            padding: 0;
+        }
+
+        article {
+            float:left;
+            padding: 20px;
+            width:65%;
+            height:250px;
+            background-color:antiquewhite;
+        }
+
+        section ::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer {
+            background-color:lightblue;
+            padding: 30px;
+            text-align: center;
+            color:antiquewhite;
+           
+            
+        }
+        @media (max-width:500px)  {
+            nav , article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Düzen Oluşturma</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto nulla exercitationem, deserunt atque ipsum repudiandae necessitatibus, nesciunt beatae quis inventore harum eum commodi doloribus sint explicabo nostrum rem ullam!
+    Vitae quisquam architecto dolorem at perferendis repudiandae sed repellendus non molestiae amet tempore, adipisci, quae sit ipsa! Animi, delectus eos repudiandae vero sequi dignissimos ea, repellendus iure voluptates vitae excepturi.
+    Voluptate eum voluptas incidunt dolores ut culpa, odit quia a aliquam necessitatibus sunt eos esse vitae, soluta in et vel. Maiores, maxime aliquam quod commodi suscipit voluptatem laudantium ullam consectetur.
+    Quia, vero! Quis, odio voluptatem. Veritatis sunt adipisci beatae illum delectus dolorum eius eos dolor laborum deleniti nam architecto quam aspernatur placeat laboriosam error explicabo hic fuga dicta, consequuntur fugiat!</p>
+
+    
+    <header>
+        <h2> Ana Başlık</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Metin 1</a></li>
+                <li><a href="#">Metin 2</a></li>
+                <li><a href="#">Metin 3</a></li>
+                <li><a href="#">Metin 4</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Konu Başlığı 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, repellendus soluta commodi, aspernatur labore vitae iure incidunt obcaecati provident sit culpa dolores explicabo? Atque recusandae nisi amet explicabo ut sint?
+            Quas maxime beatae quam, qui suscipit recusandae sapiente optio neque, ipsam aut pariatur eum, dolore quaerat nostrum! Sequi consectetur placeat consequatur quia doloremque fugit eius expedita a explicabo, maxime suscipit?
+            Repellendus, perferendis dolorem? Magnam labore, repellendus possimus, quibusdam natus, accusantium voluptatibus sequi quam saepe dolores a iure voluptates vel! Incidunt similique libero aliquid tempora, aut pariatur architecto iusto fugiat placeat?
+            Laboriosam dicta expedita labore incidunt laudantium mollitia voluptatum, magni esse quibusdam rem facilis. Dolore hic doloribus pariatur perferendis eaque. Atque totam dolor magnam. Laborum, dolore blanditiis aperiam deserunt vitae dolorum.</p>
+       
+           
+        </article>
+    </section>
+
+
+    <footer>
+        <p>footer</p>
+    </footer>
+    
+</body>
+</html>
